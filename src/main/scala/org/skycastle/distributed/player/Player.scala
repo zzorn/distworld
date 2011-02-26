@@ -1,5 +1,7 @@
 package org.skycastle.distributed.player
 
+import org.skycastle.distributed.event.Event
+
 /**
  * Someone or something playing the game.
  * Can control character(s) and assets they own.
@@ -8,5 +10,6 @@ package org.skycastle.distributed.player
 trait Player {
 
   def publicKey: String
+
 
 }
